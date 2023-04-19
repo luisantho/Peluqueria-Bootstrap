@@ -33,28 +33,35 @@
               </div>
             </div>
           </nav>
+          <br>
         <!--Sección Reserva-->
-        <form>
-          <div class="mb-3">
-            <legend>Datos Personales</legend>
-            <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-          </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-        </div> 
-        <hr> 
-        <footer>
-            <h3>Av.Primado Reig 120 Valencia Tlf:687654321</h3>
-        </footer> 
+        <div class="container bg-image">
+          <form>
+            <div class="mb-3">
+              <legend>Reserva</legend>
+              <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+              <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <option selected>Selecciona un servicio</option>
+                <option value="1">Corte de pelo</option>
+                <option value="2">Peinado</option>
+                <option value="3">Coloración</option>
+              </select>
+            <div class="mb-3">
+              <label for="datetimepicker" class="form-label">Fecha y Hora</label>
+              <input type="datetime-local" id="datetimepicker" name="datetimepicker" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-dark">Reservar</button>
+          </form>
+        </div>
+          
+        
+      
     </body>
     </html>
