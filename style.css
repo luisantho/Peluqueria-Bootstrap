@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url(OpenSans-VariableFont_wdth\,wght.ttf) format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    background-color: rgba(0, 0, 0, 0.548);
+    font-family: 'OpenSans-VariableFont_wdth', sans-serif;
+    
+}
+p.inicio{
+    color: white;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1.inicio{
+    font-family: 'Rowdies', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+
+
+div,h1,h2,h3{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 28px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: black;
+    color: whitesmoke;
+}
+.active{
+    background-color: black;
+}
+
+div.inicio {
+    width: 100%;
+    height: 600px;
+    background-image: url(IMG/index.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+
+
+
+div.colum{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+   
+}
+div.contacto{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+table,td,th{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: 8%;
+}
+th,td{
+    padding: 15px;
+    text-align: center;
+}
+th{
+    background-color: black;
+    color: white;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+/*SERVICIOS*/
+div.servicios{
+    float: left;
+    padding: 30px;
+    height: 400px;
+    width: 500px;
+    text-align: center; 
+    background-color: white; 
+    margin-left: 2%; 
+    margin-right: 2%;
+    margin-top: 4%;
+    border-radius: 20px;
+}
+              
+.servicios{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.servicios:hover{
+    transform: rotateY(360deg);
+        -webkit-transform: rotateY(360deg);
+        -moz-transform: rotateY(360deg);
+        background-color: #333;
+        color: white;
+}
+              
+
+/*CONTACTO*/
+form {
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+    margin-top: 5%;
+  }
+  
+  fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  legend {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  input[type="time"] {
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus,
+  input[type="date"]:focus,
+  input[type="time"]:focus {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2),
+                0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media screen and (max-width: 500px) {
+    input[type="submit"] {
+      width: 100%;
+    }
+  }
+  /*NOVEDADES*/
+div.novedades{
+    display: block;
+    padding: 30px;
+    height: 400px;
+    width: 90%;
+    text-align: center; 
+    background-color: white; 
+    margin-left: 2%; 
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 25px;
+}
+.novedades{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.novedades:hover{
+    transform: rotateY(360deg);
+        -webkit-transform: rotateY(360deg);
+        -moz-transform: rotateY(360deg);
+        background-color: #333;
+        color: white;
+}
+  /*CONSEJOS*/
+  div.consejos{
+    display: block;
+    padding: 30px;
+    height: 400px;
+    width: 90%;
+    text-align: center; 
+    background-color: white; 
+    margin-left: 2%; 
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 25px;
+}
+.consejos{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.consejos:hover{
+    transform: rotateY(360deg);
+        -webkit-transform: rotateY(360deg);
+        -moz-transform: rotateY(360deg);
+        background-color: #333;
+        color: white;
+}
+
+
+
+
+
+
+  
+
+  
+  

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+h1,h2,h3,p,div{
+    text-align: center;
+}
+body{
+    font-family:'Rowdies',cursive;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.carousel{
+    width: 60%;
+    height: 60%;
+}
