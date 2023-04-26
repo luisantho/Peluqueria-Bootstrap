@@ -14,12 +14,10 @@ a{
     width: 60%;
     height: 60%;
 }
-.bg-image {
-    background-image: url("IMG/Carousel/3.jpg");
-    background-size: cover;
-    background-position: center;
-    
-  }
  .card{
     margin-left: 15%;
  }
+ span.badge{
+    font-size: 14px;
+ }
+
